@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+config="debug"
+if [[ "${1-}" == "release" ]]; then
+  config="release"
+  shift
+fi
+
+preset="macos-${config}"
+
+command -v cmake >/dev/null 2>&1 || {
+  echo "cmake not found in PATH" >&2
+  exit 1
+}
+
+cmake --preset "${preset}" "$@"
+cmake --build --preset "${preset}"
