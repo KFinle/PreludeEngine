@@ -1,5 +1,7 @@
 # PreludeEngine: Composition API + Rhythm Game Engine
 
+![Gameplay Image](./PreludeEngineGameplay.png)
+
 Build:
 
 - Linux: `./build-linux` (or `./build-linux release`)
