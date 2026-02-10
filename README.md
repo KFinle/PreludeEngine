@@ -21,7 +21,9 @@ The `src/Rhythm` library composes a song into an `EventSequence`. The `src/Gamep
 library derives timing targets and spawns notes from that same sequence. The `src/Game`
 layer hosts scenes and UI, and the `src/Engine` layer provides the SDL and audio backend.
 
-![Prelude Gameplay Demo](https://youtu.be/yq9g4HJJshY)
+NOTE: This project was initially prepared for use in the Ubisoft Toronto NEXT competition, but has since been expanded on to remove any dependency to their provided contest API. 
+The core composition API was worked on for months in advance of the competition, and I felt it was a compelling enough module to be expanded on for personal projects. 
+Here's a link to the original video -> [Prelude Early Demo](https://youtu.be/AW5nzGQ75Y8)
 
 ---
 
