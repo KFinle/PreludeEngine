@@ -21,6 +21,8 @@ The `src/Rhythm` library composes a song into an `EventSequence`. The `src/Gamep
 library derives timing targets and spawns notes from that same sequence. The `src/Game`
 layer hosts scenes and UI, and the `src/Engine` layer provides the SDL and audio backend.
 
+![Prelude Gameplay Demo](https://youtu.be/yq9g4HJJshY)
+
 ---
 
 ## System Overview: One Sequence, Two Outputs
