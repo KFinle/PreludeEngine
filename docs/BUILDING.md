@@ -1,6 +1,6 @@
 # Building
 
-This repo uses CMake presets.
+This repo uses CMake presets and SDL3. Please ensure you have SDL3 installed, it is not included in `third_party`.
 
 ## One-Command Build Scripts
 
